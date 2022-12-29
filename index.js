@@ -1,3 +1,5 @@
+document.querySelector(".circle").textContent = "";
+
 var count = 1;
 var circle = document.querySelector(".circle");
 circle.style.marginLeft = "6px";
@@ -98,5 +100,3 @@ function reset(){
     res = "";
     num2 = 0;
 }
-
-
